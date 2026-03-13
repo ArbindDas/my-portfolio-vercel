@@ -171,20 +171,23 @@ export default function App() {
         }}
       />
 
+
       <NavBar
-        dark={dark}
-        setDark={setDark}
-        isMobile={isMobile}
-        isDesktop={isDesktop}
-        px={px}
-        scrollY={scrollY}
-        textSub={textSub}
-        textMain={textMain}
-        bord={bord}
-        accent={accent}
-        activeNav={activeNav}
-        setActiveNav={setActiveNav}
-      />
+  dark={dark}
+  setDark={setDark}
+  isMobile={isMobile}
+  isDesktop={isDesktop}
+  px={px}
+  scrollY={scrollY}
+  textSub={textSub}
+  textMain={textMain}
+  bord={bord}
+  accent={accent}
+  activeNav={activeNav}
+  setActiveNav={setActiveNav}
+  menuOpen={menuOpen}        // 👈 add this
+  setMenuOpen={setMenuOpen}  // 👈 add this
+/>
       <MobileMenu
         open={menuOpen}
         dark={dark}

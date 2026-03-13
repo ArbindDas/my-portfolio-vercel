@@ -2,12 +2,12 @@
 // components/Navbar.jsx
 import { NAV_LINKS } from "../constants";
 import MagBtn from "./MagBtn";
-import MobileMenu from "./MobileMenu";
+// import MobileMenu from "./MobileMenu";
 
 
 export default function NavBar({
   dark, setDark, isMobile, isDesktop, textMain, px, scrollY,
-  textSub, bord, accent, activeNav, setActiveNav
+  textSub, bord, accent, activeNav, setActiveNav ,menuOpen, setMenuOpen
 }) {
   return (
     <nav

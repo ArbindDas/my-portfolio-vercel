@@ -48,7 +48,7 @@ export const SKILLS = [
     badge: "FULL-STACK",
     type: "tags",
     tags: [
-      "SpringBoot",
+      "React",
       "Javascript",
       "Tailwind CSS",
       "Three.js",

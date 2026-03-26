@@ -214,7 +214,7 @@ export default function HeroSection({
             }}
           >
             {[
-              ["7+", "Projects"],
+              ["8+", "Projects"],
               ["Java", "Primary Stack"],
               ["Modern", "Java Features"],
             ].map(([n, l]) => (

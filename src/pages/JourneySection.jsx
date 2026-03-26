@@ -45,7 +45,7 @@ export default function JourneySection({ dark, isMobile, px, bg, bord, textSub }
           >
             {[
               ["3+", "Years Coding"],
-              ["7+", "Projects Built"],
+              ["8+", "Projects Built"],
               ["8+", "Technologies"],
               ["∞", "Learning"],
             ].map(([value, label]) => (

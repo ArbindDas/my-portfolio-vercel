@@ -202,7 +202,7 @@ export const PROJECTS = [
     ],
   },
   {
-  num: "08",
+  num: "07",
   label: "JavaScript",
   icon: "🧩",
   title: "JS Playground – Mini Projects Collection",
@@ -210,7 +210,7 @@ export const PROJECTS = [
   longDesc:
     "JS Playground is a repository containing multiple front-end projects built using HTML, CSS, and vanilla JavaScript. It includes interactive mini-applications designed to practice DOM manipulation, events, UI design, and JavaScript fundamentals. The repository helps beginners understand real-world implementations while providing reusable components and clean project structures.",
   achievements: [
-    "Built 7+ interactive JavaScript mini projects",
+    "Built 8+ interactive JavaScript mini projects",
     "Demonstrates DOM manipulation and event handling",
     "Clean project structure for learning and experimentation",
   ],
@@ -258,4 +258,68 @@ export const PROJECTS = [
       "Email service integration",
     ],
   },
+
+  {
+  num: "09",
+  label: "FULL STACK",
+  icon: "🤖",
+  featured: true,
+  title: "AI Document Assistant — RAG Multi-Agent System",
+  desc: "RAG pipeline with multi-agent orchestration, semantic search, and LLM-powered document Q&A.",
+  longDesc:
+    "A full-stack AI document assistant that ingests documents, generates embeddings using Pinecone, and retrieves semantically relevant content for LLM responses. The system uses a multi-agent architecture where agents independently handle parsing, query routing, and response synthesis. Integrated with OpenAI API for LLM inference and Redis for caching to reduce latency and redundant API calls. Built for scalability and efficient knowledge retrieval.",
+  achievements: [
+    "RAG pipeline with Spring AI and Pinecone vector database",
+    "Multi-agent architecture for document parsing, query routing, and response synthesis",
+    "OpenAI API integration for LLM-powered answers",
+    "Redis caching to reduce API calls and improve latency",
+    "Dockerized full-stack deployment with Spring Boot backend",
+  ],
+  tags: [
+    { label: "Spring Boot", cls: "java" },
+    { label: "Spring AI", cls: "java" },
+    { label: "React", cls: "react" },
+    { label: "Redis", cls: "db" },
+    { label: "Pinecone", cls: "db" },
+    { label: "Docker", cls: "other" },
+    { label: "RAG", cls: "other" },
+    { label: "OpenAI API", cls: "other" },
+  ],
+  link: "https://github.com/ArbindDas/spring-ai-rag-document-assistant",
+  demo: null,
+  stack: [
+    {
+      label: "React UI",
+      bg: "rgba(56,189,248,0.1)",
+      color: "#38bdf8",
+      border: "rgba(56,189,248,0.22)",
+    },
+    {
+      label: "Spring Boot",
+      bg: "rgba(245,158,11,0.1)",
+      color: "#f59e0b",
+      border: "rgba(245,158,11,0.22)",
+    },
+    {
+      label: "Redis + Pinecone",
+      bg: "rgba(52,211,153,0.1)",
+      color: "#34d399",
+      border: "rgba(52,211,153,0.22)",
+    },
+    {
+      label: "OpenAI API · RAG",
+      bg: "rgba(129,140,248,0.1)",
+      color: "#818cf8",
+      border: "rgba(129,140,248,0.22)",
+    },
+  ],
+  architecture: [
+    "Multi-agent system for independent task handling",
+    "RAG pipeline: document ingestion → embedding → semantic search",
+    "Spring Boot services coordinating agents",
+    "Redis caching for frequent queries",
+    "OpenAI API integration for LLM inference",
+    "Dockerized deployment for portability",
+  ],
+}
 ];
